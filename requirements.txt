@@ -1,0 +1,15 @@
+# Python requirements for Stash plugins
+# Note: requests, lxml, beautifulsoup4, Pillow, python-dateutil, and urllib3 are installed via apt
+# Core dependencies for plugin system
+stashapp-tools>=0.2.50
+
+# File management and system utilities
+Send2Trash>=1.8.0
+psutil>=5.8.0
+
+# Web scraping and parsing
+# mechanicalsoup>=1.2.0  # Commented out due to urllib3 conflict
+cloudscraper>=1.2.60
+
+# HTTP and networking
+requests-toolbelt>=0.9.1
